@@ -59,7 +59,7 @@ class App extends Component {
                                 <span className="icon-bar" />
                                 <span className="icon-bar" />
                             </button>
-                            <Link to="/" className="navbar-brand">Firebase & Redux boilerplate</Link>
+                            <Link to="/" className="navbar-brand">Daisy</Link>
 
                         </div>
                         <nav className="collapse navbar-collapse bs-navbar-collapse" role="navigation">
