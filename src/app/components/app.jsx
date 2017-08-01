@@ -48,7 +48,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <header className="navbar navbar-static-top navbar-inverse" id="top" role="banner">
+                <header className="navbar navbar-static-top navbar-inverse " id="top" role="banner">
                     <div className="container">
                         <div className="navbar-header">
                             <button

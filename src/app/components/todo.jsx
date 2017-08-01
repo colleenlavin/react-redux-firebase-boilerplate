@@ -1,13 +1,11 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { Link } from 'react-router'
-import axios from 'axios'
 import { browserHistory } from "react-router"
 
-import store from '../store'
 
 
-export default class Goals extends React.Component {
+export default class ToDo extends React.Component {
   
 
   render() {
@@ -17,8 +15,8 @@ export default class Goals extends React.Component {
           <h1>My Goals</h1>
         </div>    
         <ul id="myUL" className="goalsList">
-          <li>Save 20% of my income</li>
-          <li className="checked">Learn what a 401k is</li>
+          <li>Call funeral home</li>
+          <li className="checked">Build</li>
           <li>Pay off my student loans</li>
            <li className="checked">Pay bills</li>
           <li>Start a vacation fund</li>

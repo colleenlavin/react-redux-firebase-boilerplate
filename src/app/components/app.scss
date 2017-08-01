@@ -11,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial;
     font-weight: 700;
 }
 
@@ -107,11 +107,7 @@ h6 {
     border-top: 3px solid #e7e7e7;
 }
 
-.banner {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background-size: cover;
-}
+
 
 .banner h2 {
     margin: 0;
@@ -161,3 +157,426 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+// OTHER STUFF
+
+     .form-group {
+        width: 200px;
+      }
+
+
+
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+  margin-bottom:50px;
+  padding-right:10px;
+
+}
+.clear {
+  clear:both;
+}
+
+.btn-warning {
+  margin-top: 160px;
+  width: 150px;
+}
+.logo {
+  margin-left: -30px;
+  margin-top: 12px;
+  padding-right: 60px;
+
+}
+
+
+
+
+.table-bordered{
+  font-family:  Helvetica;
+  width: 90%;
+  border-radius: 10px;
+  opacity: 1px
+
+
+}
+
+
+
+
+
+.center-block{
+  margin-top: 500px;
+ right:78px;
+ margin-right: 78px;
+}
+
+.goalsMain{
+  text-align: center;
+}
+.goalsMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid black;
+  color: #000000
+ 
+}
+.goalsMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: #0066FF;
+  color: #FFF;
+  border: 2px solid #0066FF;
+}
+ 
+.goalsMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+
+.home{
+  padding: 50px;
+}
+.chart{
+  width: 35%;
+  height: 35%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.text-vertical-center {
+   display: block;
+   text-align: center;
+   position: relative;
+   margin: 90px;
+   padding: 90px;
+
+}
+
+.text-vertical-center h1 {
+   font-size: 6em;
+   font-weight: 800;
+
+}
+.text-vertical-center h3 {
+   font-size: 2em;
+   font-weight: 400;
+   padding-top: 10px;
+
+}
+
+.btn-dark {
+   border-radius: 0;
+   color: #fff;
+   background-color: rgba(0,0,0,0.4);
+   padding:5px;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+   color: #fff;
+   background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+   border-radius: 0;
+   color: #333;
+   background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+   color: #333;
+   background-color: rgba(255,255,255,0.8);
+}
+h1{
+  font-family: 'Pacifico', cursive;
+}
+h4{
+  font-family: 'Philosopher';
+}
+.btn{
+  padding:5px;
+  margin: 10px;
+}
+
+.form-container {
+  padding-bottom: 100px;
+}
+
+
+      .custom-menu-wrapper {
+          background-color: #808080;
+          margin-bottom: 2.5em;
+          white-space: nowrap;
+          position: relative;
+      }
+
+      .custom-menu {
+          display: inline-block;
+          width: auto;
+          vertical-align: middle;
+          -webkit-font-smoothing: antialiased;
+      }
+
+      .custom-menu .pure-menu-link,
+      .custom-menu .pure-menu-heading {
+          color: white;
+      }
+
+      .custom-menu .pure-menu-link:hover,
+      .custom-menu .pure-menu-heading:hover {
+          background-color: transparent;
+      }
+
+      .custom-menu-top {
+          position: relative;
+          padding-top: .5em;
+          padding-bottom: .5em;
+      }
+
+      .custom-menu-brand {
+          display: block;
+          text-align: center;
+          position: relative;
+      }
+
+      .custom-menu-toggle {
+          width: 44px;
+          height: 44px;
+          display: block;
+          position: absolute;
+          top: 3px;
+          right: 0;
+          display: none;
+      }
+
+      .custom-menu-toggle .bar {
+          background-color: white;
+          display: block;
+          width: 20px;
+          height: 2px;
+          border-radius: 100px;
+          position: absolute;
+          top: 22px;
+          right: 12px;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          transition: all 0.5s;
+      }
+
+      .custom-menu-toggle .bar:first-child {
+          -webkit-transform: translateY(-6px);
+          -moz-transform: translateY(-6px);
+          -ms-transform: translateY(-6px);
+          transform: translateY(-6px);
+      }
+
+      .custom-menu-toggle.x .bar {
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+      }
+
+      .custom-menu-toggle.x .bar:first-child {
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+      }
+
+      .custom-menu-screen {
+          background-color: rgba(0, 0, 0, 0.5);
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          transition: all 0.5s;
+          height: 3em;
+          width: 70em;
+          position: absolute;
+          top: 0;
+          z-index: -1;
+      }
+
+      .custom-menu-tucked .custom-menu-screen {
+          -webkit-transform: translateY(-44px);
+          -moz-transform: translateY(-44px);
+          -ms-transform: translateY(-44px);
+          transform: translateY(-44px);
+      }
+
+      @media (max-width: 62em) {
+
+          .custom-menu {
+              display: block;
+          }
+
+          .custom-menu-toggle {
+              display: block;
+              display: none\9;
+          }
+
+          .custom-menu-bottom {
+              position: absolute;
+              width: 100%;
+              border-top: 1px solid #eee;
+              background-color: #808080;
+              z-index: 100;
+          }
+
+          .custom-menu-bottom .pure-menu-link {
+              opacity: 1;
+              -webkit-transform: translateX(0);
+              -moz-transform: translateX(0);
+              -ms-transform: translateX(0);
+              transform: translateX(0);
+              -webkit-transition: all 0.5s;
+              -moz-transition: all 0.5s;
+              -ms-transition: all 0.5s;
+              transition: all 0.5s;
+          }
+
+          .custom-menu-bottom.custom-menu-tucked .pure-menu-link {
+              -webkit-transform: translateX(-140px);
+              -moz-transform: translateX(-140px);
+              -ms-transform: translateX(-140px);
+              transform: translateX(-140px);
+              opacity: 0;
+              opacity: 1\9;
+          }
+
+          .pure-menu-horizontal.custom-menu-tucked {
+              z-index: -1;
+              top: 45px;
+              position: absolute;
+              overflow: hidden;
+          }
+
+      }/* Include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+.goalsList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ 
+}
+
+/* Style the list items */
+.goalsList li {
+    cursor: pointer;
+    position: relative;
+   
+    font-size: 18px;
+    transition: 0.2s;
+    color: #333;
+    background-color: #ccfff5;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+.goalsList li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+.goalsList li:hover {
+    background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+.goalsList li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+.goalsList li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+/* Style the close button */
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: #49EED1;
+    color: white;
+}
+
+/* Style the header */
+.goalsHeader {
+    background-color: #49EED1;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+/* Clear floats after the header */
+.goalsHeader:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the input */
+input {
+    font-size: 16px;
+    border: 1px solid black;
+    color: #000000;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    border-radius: 5px;
+}
+/* Style the "Add" button */
+.addBtn {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #0066FF;
+    color: #FFF;
+    border: 2px solid #0055FF;
+    border-radius: 5px;
+}
+
+.addBtn:hover {
+    background-color: #58EED1;
+}
+
