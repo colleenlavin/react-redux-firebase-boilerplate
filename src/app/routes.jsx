@@ -8,6 +8,8 @@ import UserLogout from './components/user/logout';
 import UserRegister from './components/user/register';
 import UserProfile from './components/user/profile';
 import ResetPassword from './components/user/reset_password';
+import Vendors from './components/vendors';
+import EventForm from './components/eventform';
 import requireAuth from './utils/authenticated';
 
 export default (
@@ -16,6 +18,7 @@ export default (
         <Route path="/login" component={UserLogin} />
         <Route path="/logout" component={UserLogout} />
         <Route path="/register" component={UserRegister} />
+        <Route path="/vendors" component={Vendors} />
         <Route path="/reset" component={ResetPassword} />
         <Route path="/profile" component={UserProfile} onEnter={requireAuth} />
     </Route>

@@ -43,7 +43,7 @@ class UserProfile extends Component {
         return (
             <div className="col-md-6">
                 <form id="frmProfile" role="form" onSubmit={this.onFormSubmit}>
-                    <h2>User Profile Page</h2>
+                    <h2>Deceased Information</h2>
                     <p>{this.state.message}</p>
                     <br />
                     <div className="form-group">
