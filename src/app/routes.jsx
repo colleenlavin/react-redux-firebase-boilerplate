@@ -9,6 +9,10 @@ import UserRegister from './components/user/register';
 import UserProfile from './components/user/profile';
 import ResetPassword from './components/user/reset_password';
 import Vendors from './components/vendors';
+import Florists from './components/florists';
+import Catering from './components/catering';
+import FuneralHomes from './components/funhome';
+import Reception from './components/reception';
 import EventForm from './components/eventform';
 import ToDo from './components/todo';
 import requireAuth from './utils/authenticated';
@@ -20,6 +24,10 @@ export default (
         <Route path="/logout" component={UserLogout} />
         <Route path="/register" component={UserRegister} />
         <Route path="/vendors" component={Vendors} />
+        <Route path="/florists" component={Florists} />
+        <Route path="/reception" component={Reception} />
+        <Route path="/funeralhomes" component={FuneralHomes} />
+        <Route path="/catering" component={Catering} />
         <Route path="/checklist" component={ToDo} />
         <Route path="/reset" component={ResetPassword} />
         <Route path="/profile" component={UserProfile} onEnter={requireAuth} />
