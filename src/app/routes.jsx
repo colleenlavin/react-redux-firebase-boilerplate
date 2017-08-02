@@ -15,6 +15,7 @@ import Catering from './components/catering';
 import FuneralHomes from './components/funhome';
 import Reception from './components/reception';
 import EventForm from './components/eventform';
+import EventPage from './components/eventpage';
 import ToDo from './components/todo';
 import requireAuth from './utils/authenticated';
 
@@ -31,6 +32,7 @@ export default (
         <Route path="/funeralhomes" component={FuneralHomes} />
         <Route path="/catering" component={Catering} />
         <Route path="/info" component={EventForm} />
+         <Route path="/seymourgraves" component={EventPage} />
         <Route path="/checklist" component={ToDo} />
         <Route path="/reset" component={ResetPassword} />
         <Route path="/profile" component={UserProfile} onEnter={requireAuth} />

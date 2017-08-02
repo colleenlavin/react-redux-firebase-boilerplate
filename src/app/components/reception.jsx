@@ -14,6 +14,9 @@ export default class Reception extends React.Component {
         <div id="myDIV" className="goalsHeader">
           <h1>My Goals</h1>
         </div>    
+        <div>
+            
+        </div>
         <ul id="myUL" className="goalsList">
           <li>Call funeral home</li>
           <li className="checked">Build</li>

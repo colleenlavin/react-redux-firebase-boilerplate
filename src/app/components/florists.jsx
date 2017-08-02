@@ -14,7 +14,18 @@ export default class Florists extends React.Component {
                 <div className="container">
                    
                         <h1>Flowers</h1>
-                        
+                        <table >
+                            <tr>
+                                <th>Firstname</th>
+                                 <th>Lastname</th> 
+                                 <th>Age</th>
+                            </tr>
+                             <tr>
+                                 <td>Jill</td>
+                                 <td>Smith</td> 
+                                 <td>50</td>
+                             </tr>
+                        </table>
                   
                 </div>
             </div>

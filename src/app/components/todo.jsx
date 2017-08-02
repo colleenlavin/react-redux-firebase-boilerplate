@@ -16,8 +16,9 @@ export default class ToDo extends React.Component {
                         <h1>To Do</h1>
                     </div>
                     <ul id="myUL" className="goalsList">
-                        <li>  <Link to={`/vendors`}> Decide on your must haves  </Link></li>
-                        <li className="checked">Choose a date</li>
+                        <li>  <Link to={`/vendors`}> Explore your options  </Link></li>
+                        <li>  <Link to={`/vendors`}> Get a death certificate </Link></li>
+                        <li className="checked">Choose a date <h6>August 6, 2017</h6></li>
                         <li>  <Link to={`/florists`}> Choose your floral arrangements  </Link></li>
                         <li>  <Link to={`/funeralhomes`}> Arrange your funeral service  </Link></li>
                         <li>  <Link to={`/reception`}> Pick a reception venue  </Link></li>
