@@ -59,13 +59,12 @@ class App extends Component {
                                 <span className="icon-bar" />
                                 <span className="icon-bar" />
                             </button>
-                            <Link to="/" className="navbar-brand">Daisy</Link>
+                            <Link to="/checklist" className="navbar-brand">Daisy</Link>
 
                         </div>
                         <nav className="collapse navbar-collapse bs-navbar-collapse" role="navigation">
                             <ul className="nav navbar-nav">
-                                <li><Link to="/"> Home</Link></li>
-                ,
+                                <li><Link to="/checklist"> Home</Link></li>
               </ul>
                             <ul className="nav navbar-nav navbar-right">
                                 { this.renderUserMenu(this.props.currentUser) }

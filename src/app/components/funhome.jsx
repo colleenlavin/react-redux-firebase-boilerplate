@@ -12,14 +12,16 @@ export default class FuneralHomes extends React.Component {
     return (
       <div className='goalsMain'>
         <div id="myDIV" className="goalsHeader">
-          <h1>My Goals</h1>
+          <h1>To Do</h1>
         </div>    
         <ul id="myUL" className="goalsList">
-          <li>Call funeral home</li>
-          <li className="checked">Build</li>
-          <li>Pay off my student loans</li>
-           <li className="checked">Pay bills</li>
-          <li>Start a vacation fund</li>
+          <li>  <Link to={`/vendors`}> Decide on your must haves  </Link></li>
+         <li>  <Link to={`/florists`}> Choose your floral arrangements  </Link></li>
+        <li>  <Link to={`/funeralhomes`}> Arrange your funeral service  </Link></li>
+         <li>  <Link to={`/reception`}> Pick a reception venue  </Link></li>
+         <li>  <Link to={`/catering`}> Find your caterer  </Link></li>
+
+      
         </ul>
         <div >
           <form onSubmit={this.addItem}>

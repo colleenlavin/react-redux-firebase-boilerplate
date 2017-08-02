@@ -10,6 +10,7 @@ import UserProfile from './components/user/profile';
 import ResetPassword from './components/user/reset_password';
 import Vendors from './components/vendors';
 import Florists from './components/florists';
+import Florist from './components/florist';
 import Catering from './components/catering';
 import FuneralHomes from './components/funhome';
 import Reception from './components/reception';
@@ -25,9 +26,11 @@ export default (
         <Route path="/register" component={UserRegister} />
         <Route path="/vendors" component={Vendors} />
         <Route path="/florists" component={Florists} />
+         <Route path="/florists/1" component={Florist} />
         <Route path="/reception" component={Reception} />
         <Route path="/funeralhomes" component={FuneralHomes} />
         <Route path="/catering" component={Catering} />
+        <Route path="/info" component={EventForm} />
         <Route path="/checklist" component={ToDo} />
         <Route path="/reset" component={ResetPassword} />
         <Route path="/profile" component={UserProfile} onEnter={requireAuth} />

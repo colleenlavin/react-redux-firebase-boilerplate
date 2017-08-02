@@ -7,37 +7,33 @@ export default class Vendors extends React.Component {
 
             <div className="container">
 
-                <div className="row">
-                    <div className="col-lg-12">
-                        <h1 className="page-header">Vendors
-                            <small>Secondary Text</small>
-                        </h1>
+               
+                 <h1>High Priority</h1>
+                    {/*Funeral Coordination*/}
+                    <div className="col-md-4 portfolio-item">
+                        <Link to={`/funeralhomes`}>
+                            <img className="img-responsive" src="https://pbs.twimg.com/media/DGOUrepUAAAzRRC.jpg" alt="" />
+                        </Link>
                     </div>
-                </div>
+                   <div className="col-md-4 portfolio-item">
+                        <Link to={`/florists`}>
+                            <img className="img-responsive" src="https://pbs.twimg.com/media/DGOUla7UMAQBEp9.jpg" alt="" />
+                        </Link>
+                    </div>
+                    {/*Reception Venues*/}
+                    <div className="col-md-4 portfolio-item">
+                        <Link to={`/reception`}>
+                            <img className="img-responsive" src="https://pbs.twimg.com/media/DGOUuTLUMAIlfvK.jpg" alt="" />
+                        </Link>
+                    </div>
+                    {/*Catering*/}
+                    <div className="col-md-4 portfolio-item">
+                        <Link to={`/catering`}>
+                            <img className="img-responsive" src="https://pbs.twimg.com/media/DGOUoCjUwAAztvi.jpg" alt="" />
+                        </Link>
 
-                <div className="row">
-                    {/*Florists*/}
-                    <div className="col-md-4 portfolio-item">
-                        <Link to={`/florists`}>
-                            <h3>Flowers</h3>
-                            <img className="img-responsive" src="http://placehold.it/700x400" alt="" />
-                        </Link>
-                        <h3>Flowers</h3>
-                        <Link to="/florists"><button type="button" className="btn btn-danger"
-                        >Add to Cart</button></Link>
-                     
                     </div>
-                    {/*Funeral Homes*/}
-                    <div className="col-md-4 portfolio-item">
-                        <Link to={`/florists`}>
-                            <h3>Funeral Homes</h3>
-                            <img className="img-responsive" src="http://placehold.it/700x400" alt="" />
-                        </Link>
-                        <h3>Flowers</h3>
-                        <Link to="/florists"><button type="button" className="btn btn-danger"
-                         >Add to Cart</button></Link>
-                    </div>
-                </div>
+             
             </div>
 
         );
