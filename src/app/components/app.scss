@@ -623,7 +623,7 @@ input {
   height: auto !important;
 }
 .form-style-10{
-    width:450px;
+    width:750px;
     padding:30px;
     margin:40px auto;
     background: #FFF;
@@ -655,10 +655,10 @@ input {
     box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
     border: 1px solid #257C9E;
 }
-.form-style-10 h1 > span{
+.form-style-10 h3 > span{
     display: block;
     margin-top: 2px;
-    font: 13px Arial, Helvetica, sans-serif;
+    font: 30px Arial, Helvetica, sans-serif;
 }
 .form-style-10 label{
     display: block;
@@ -725,6 +725,7 @@ input {
     box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
     border: 1px solid #257C9E;
     font-size: 15px;
+    width: 50%;
 }
 .form-style-10 input[type="button"]:hover, 
 .form-style-10 input[type="submit"]:hover{
@@ -735,7 +736,7 @@ input {
 }
 .form-style-10 .privacy-policy{
     float: right;
-    width: 250px;
+    width:100%;
     font: 12px Arial, Helvetica, sans-serif;
     color: #4D4D4D;
     margin-top: 10px;
