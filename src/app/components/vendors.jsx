@@ -9,7 +9,7 @@ export default class Vendors extends React.Component {
 
                 <div className="wrapper">
                
-                 <h1>High Priority</h1>
+                 {/*<h1>High Priority</h1>*/}
                     {/*Funeral Coordination*/}
                     <div className="col-md-4 portfolio-item">
                         <Link to={`/funeralhomes`}>

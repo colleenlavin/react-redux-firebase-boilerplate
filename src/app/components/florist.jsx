@@ -13,7 +13,7 @@ export default class Florist extends React.Component {
             <div className='main-container'>
                 <div className='title'>
                     <h2>
-                       Flora's Flowers
+                       Flower Kingdom
                     </h2>
                 </div>
                 <div>

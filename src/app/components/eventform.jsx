@@ -12,6 +12,8 @@ export default class EventForm extends React.Component {
                             <div className="section">Deceased Information</div>
                             <div className="inner-wrap">
                                 <label> Full Name <input type="text" name="field1" /></label>
+                                 <label> Date of Birth: <input type="text" name="field1" /></label>
+                                  <label>Date of Death: <input type="text" name="field1" /></label>
                             </div>
 
                             <div className="section">Venue Information</div>

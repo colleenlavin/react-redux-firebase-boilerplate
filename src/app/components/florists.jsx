@@ -15,16 +15,37 @@ export default class Florists extends React.Component {
                    
                         <h1>Flowers</h1>
                         <table >
-                            <tr>
+                            {/*<tr>
                                 <th>Firstname</th>
                                  <th>Lastname</th> 
                                  <th>Age</th>
-                            </tr>
+                            </tr>*/}
                              <tr>
-                                 <td>Jill</td>
+                                 <td>Flower Kingdom</td>
                                  <td>Smith</td> 
                                  <td>50</td>
                              </tr>
+                             <tr>
+                                 <td>Simply Flowers</td>
+                                 <td>Smith</td> 
+                                 <td>50</td>
+                             </tr>
+                               <tr>
+                                 <td>Floral Gardens And Gifts</td>
+                                 <td>Smith</td> 
+                                 <td>50</td>
+                             </tr>
+                               <tr>
+                                 <td>Botanical Bliss Flourist</td>
+                                 <td>Smith</td> 
+                                 <td>50</td>
+                             </tr>
+                               <tr>
+                                 <td>A Red Rose</td>
+                                 <td>Smith</td> 
+                                 <td>50</td>
+                             </tr>
+                          
                         </table>
                   
                 </div>
