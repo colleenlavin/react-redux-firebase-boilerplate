@@ -9,16 +9,10 @@ export default class Home extends React.Component {
           <div className="row">
             <div className="col-lg-12">
               <div className="intro-message">
-                <h1>Daisy</h1>
-                <ul className="list-inline intro-social-buttons">
-                  <li>
-                    <a href="https://twitter.com/SBootstrap" className="btn btn-default btn-lg"><i className="fa fa-twitter fa-fw"></i> <span className="network-name">Twitter</span></a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/IronSummitMedia/startbootstrap" className="btn btn-default btn-lg"><i className="fa fa-github fa-fw"></i> <span className="network-name">Github</span></a>
-                  </li>
+                <h1></h1>
+            
 
-                </ul>
+            
               </div>
             </div>
           </div>

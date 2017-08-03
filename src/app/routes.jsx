@@ -32,7 +32,7 @@ export default (
         <Route path="/funeralhomes" component={FuneralHomes} />
         <Route path="/catering" component={Catering} />
         <Route path="/info" component={EventForm} />
-         <Route path="/seymourgraves" component={EventPage} />
+         <Route path="/grimreaper" component={EventPage} />
         <Route path="/checklist" component={ToDo} />
         <Route path="/reset" component={ResetPassword} />
         <Route path="/profile" component={UserProfile} onEnter={requireAuth} />
