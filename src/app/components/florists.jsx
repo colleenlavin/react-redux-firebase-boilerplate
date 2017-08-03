@@ -22,8 +22,8 @@ export default class Florists extends React.Component {
                             </tr>*/}
                              <tr>
                                  <td>Flower Kingdom</td>
-                                 <td>Smith</td> 
-                                 <td>50</td>
+                                 <td></td> 
+                                 <td></td>
                              </tr>
                              <tr>
                                  <td>Simply Flowers</td>
