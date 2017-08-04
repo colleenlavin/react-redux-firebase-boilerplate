@@ -72,7 +72,7 @@ export default class ToDo extends React.Component {
                     </div> 
                     <div className="col-md-10">
                         <div className="row shadow todo">
-                            <Link to={`/`}>
+                            <Link to={`/florists/1`}>
                                 <div className="col-md-9 link p-16">
                                     <h3>Choose your floral arrangements</h3>
                                 </div>
@@ -143,7 +143,7 @@ export default class ToDo extends React.Component {
                     <div className="col-md-10">
                         <div className="row shadow todo">
                             <Link to={`/grimreaper`}>
-                                <div className="col-md-9 link p-16">
+                                <div className="col-md-9 link <p-16></p-16>">
                                     <h3 >Pick up Aunt Sheila from the airport. <span className="bold">Friday, 2:00 PM</span></h3>
                                 </div>
                             </Link> 
