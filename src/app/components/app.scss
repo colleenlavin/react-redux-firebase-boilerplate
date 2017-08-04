@@ -819,6 +819,10 @@ th {
 .m-t-16 {
     margin-top: 16px;
 }
+.m-r-16 {
+    margin-right: 16px;
+}
+
 
 .bg-yellow {
     background-color: #ECC669;
@@ -900,4 +904,46 @@ i.fa {
 
 #myUL {
     margin-top: 24px;
+}
+
+// TODO LIST CSS
+
+.column .columns {
+    margin: 0px;
+}
+li .columns {
+    margin: 0px;
+}
+
+li .columns {
+    margin: 0px;
+}
+
+.todo .link {
+   height:50px;
+
+}
+.todo .cta {
+   height:50px;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.todo-centered {
+    margin: 0 auto;
+    max-width:750px;
+    width: 100%;
+}
+
+.bold {
+font-weight:700;
+}
+.big-check {
+      margin-top: -6px !important;
+    font-size: 29px;
+}
+.strike {
+ text-decoration: line-through!important;
 }
