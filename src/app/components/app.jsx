@@ -59,7 +59,8 @@ class App extends Component {
                                 <span className="icon-bar" />
                                 <span className="icon-bar" />
                             </button>
-                            <Link to="/checklist" className="navbar-brand">Daisy</Link>
+                            <Link to="/checklist" className="navbar-brand"><img className="h-51" src="https://image.ibb.co/efsC6a/daisy.png" /></Link>
+                            
 
                         </div>
                         <nav className="collapse navbar-collapse bs-navbar-collapse" role="navigation">

@@ -9,22 +9,16 @@
     }
 body,
 html {
-    width: 100%;
-    height: 100%;
-}
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial;
-    font-weight: 700;
-    text-align: center;
+}
+body {
+    background-color: #E6E6E6;
 }
 
+.lobster {
+    font-family: 'Lobster', cursive;
+}
 
 .topnav {
     font-size: 14px; 
@@ -774,4 +768,136 @@ th {
     color: #f8f8f8;
     background: url("https://pbs.twimg.com/media/DGU6R4GU0AAOoPR.jpg:large") no-repeat center center;
     background-size: cover;
+}
+
+.h-51 {
+     height: 51px;   
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar {
+    background-color: #e6e6e6;
+}
+.nav {
+    background-color: #e6e6e6;
+}
+.navbar-inverse {
+    border: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #3f4663;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.shadow {
+    background: white;
+    box-shadow: 2px 2px 4px #d8d8d8;
+    border-radius: 2px;
+}
+
+.p-0 {
+    padding: 0rem;
+}
+
+.columns .columns {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.m-t-0 {
+    margin-top: 0px;
+}
+.m-t-8 {
+    margin-top: 8px;
+}
+
+.m-t-16 {
+    margin-top: 16px;
+}
+
+.bg-yellow {
+    background-color: #ECC669;
+}
+
+.bg-light-yellow {
+    background-color: #fff2d2;
+}
+
+.stretch-button {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #564825;
+}
+
+.main-pic {
+    background: url(https://image.ibb.co/iRTc6a/reef.png);
+    background-size: cover;
+}
+.w-full {
+    width:100%;
+}
+
+.p-16{
+    padding: 16px;
+}
+.p-8{
+    padding: 8px;
+}
+
+.p-2{
+    padding: 8px;
+}
+
+.card-title {
+    border-bottom: 1px solid #e0e0e0;
+    font-weight: 700;
+}
+
+p {
+    font-size: 12px;
+}
+
+i.fa {
+    margin-top: 5px; 
+    margin-right: 12px;
+    margin-left: 12px;
+    color: #8193af;
+}
+
+.money {
+    color: green;
+    display:inline-block;
+    margin-left: 45px;
+    margin-bottom: 16px;
+    
+}
+
+.l-h-22 {
+    line-height: 22px;
+}
+
+.font-16 {
+    font-size: 16px !important;
+}
+
+.price {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #636363;
+    font-weight: 800;
+}
+
+.max-w-800 {
+    max-width:800px; 
+    margin: 0 auto;
+}
+
+#myUL {
+    margin-top: 24px;
 }
